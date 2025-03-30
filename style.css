@@ -1,0 +1,41 @@
+/* Apply styles using three different selectors: class, ID, and element */
+
+/* Element selector */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Class selector */
+.main-heading {
+    color: #007bff;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: 18px;
+    color: #333;
+    padding: 10px;
+}
+
+/* ID selector */
+#styled-image {
+    width: 300px;
+    border: 5px solid #333;
+    border-radius: 10px;
+    margin: 20px auto;
+    display: block;
+}
+
+/* Styling footer */
+.footer-text {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    border-top: 3px solid #0056b3;
+}
